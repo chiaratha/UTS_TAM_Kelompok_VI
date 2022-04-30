@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OrangeTheme" parent="Base.AppTheme.BlackTheme"/>
+    <style name="Base.AppTheme.BlackTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#EE5007</item>
+        <item name="colorPrimaryVariant">#FF7700</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="YellowTheme" parent="Base.AppTheme.BlueTheme"/>
+    <style name="Base.AppTheme.BlueTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#FFAB00</item>
+        <item name="colorPrimaryVariant">#FFD600</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+</resources>

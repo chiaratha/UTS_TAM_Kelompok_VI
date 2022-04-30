@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="30sp"
+        android:layout_marginBottom="10sp"
+        android:background="@color/white"
+        app:cardCornerRadius="10sp"
+        app:cardElevation="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10sp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/tumbnal_image"
+                android:layout_width="60sp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10sp"
+                android:src="@drawable/search" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title_masakan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:text="Resep Rica-Rica Bebek Enak dan Pedas"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/key_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="key"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:id="@+id/selengkapnya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:text="Selengkapnya.."
+                    android:layout_gravity="end"
+                    android:textColor="#FF7700"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
